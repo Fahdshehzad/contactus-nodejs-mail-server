@@ -1,0 +1,6 @@
+-> Just a quick & dirty solution to create a Node.Js based mail server to support the contact us form.
+-> See the properties.ini file to add required mail settings.
+-> See the apache.conf file to add settings apache config or htaccess file.
+-> Also verifies google re-captcha key against google to prevent spam or reboot attack. 
+	- So Public key goes into html file, while private or secret key must be added in properties.inti file.
+-> run using command: node mailserver.js
